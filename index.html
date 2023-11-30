@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lab8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Користувач vs Комп'ютер</h1>
+ <div class="container">
+        <div class="numbers">
+            <div class="player" id="user">
+                <h2 id="userLabel"></h2>
+                <p id="userNumber"></p>
+            </div>
+            <div class="player" id="computer">
+                <h2>Комп'ютер</h2>
+                <p id="computerNumber"></p>
+            </div>
+        </div>
+		<div class="score">
+        <p id="userPoint">Рахунок гравця: 0</p>
+        <p id="computerPoint" class="point">Рахунок комп'ютера: 0</p>
+		</div>
+        <div id="result"></div>
+    </div>
+	<button onclick="generate()">Генерувати</button>
+    <script src="script.js"></script>
+</body>
+</html>
